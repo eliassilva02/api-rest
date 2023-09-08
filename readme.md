@@ -12,10 +12,10 @@ Este é uma aplicação Flask que cria uma API REST usando Pydantic e TinyDB.
 ## Endpoints
 | Endpoint         | Métodos | Regra                                |
 |----------------- | ------- | ------------------------------------ |
-| Atualiza uma pessoa  | PUT     | /pessoas/<int:id>                    |
-| Deleta uma pessoa    | DELETE  | /pessoas/<int:id>                    |
+| Atualiza uma pessoa  | PUT     | /pessoas/{id}                    |
+| Deleta uma pessoa    | DELETE  | /pessoas/{id}                    |
 | Insere um pessoa    | POST    | /pessoas                             |
-| Busca uma pessoa     | GET     | /pessoas/<int:id>                    |
+| Busca uma pessoa     | GET     | /pessoas/{id}                    |
 | Busca todas as pessoas    | GET     | /pessoas                             |
 | Redoc   | GET     | /apidoc/redoc                        |
 | Swagger | GET     | /apidoc/swagger                      |
